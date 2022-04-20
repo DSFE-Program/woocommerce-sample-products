@@ -7,6 +7,7 @@
     - Make `isResolving` param `args` optional.
     - Update `Plugin` type to reflect the latest changes.
     - Maps "raw"  payment `ActionDispatchers` to the registered actions.
+-   Added PaymentGateway type to exports #32697
 ## Breaking change
 
 -   Remove `PaymentMethodsState` type. Use `Plugin` instead. #32683
